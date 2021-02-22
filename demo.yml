@@ -1,0 +1,9 @@
+---
+- name: my playbook
+  # hosts: all
+  hosts: ansible1, ansible2
+  tasks:
+  - name: Echo
+    debug:
+      msg: Echo from ansible playbook
+...
